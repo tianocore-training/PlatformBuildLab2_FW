@@ -1,0 +1,2 @@
+powershell "& {[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-WebRequest -Uri "https://indy.fulgan.com/SSL/openssl-1.0.2r-x64_86-win64.zip -OutFile openssl-1.0.2r-x64_86-win64.zip"}"
+powershell Expand-Archive openssl-1.0.2r-x64_86-win64.zip
