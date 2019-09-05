@@ -27,7 +27,7 @@
 # This flag is to enable a different ver string for building of the ShellPkg
 # These can be changed on the command line.
 #
-  DEFINE  ADD_SHELL_STRING         = TRUE
+  DEFINE  ADD_SHELL_STRING         = FALSE
 
   #
   # Network definition
